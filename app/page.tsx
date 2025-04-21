@@ -122,7 +122,7 @@ export default function Home() {
               <div className="relative">
                 <div className="rounded-lg overflow-hidden shadow-xl">
                   <Image
-                    src="/placeholder.svg?height=600&width=600"
+                    src="https://cdn.prod.website-files.com/5cab75b41283e5fbfc0e18e2/67ef210c11d28a60d0cbec5e_Hoppier%20Header%20Image%20-%20Lunch%20Gift%20Card%20tiny.png"
                     alt="Hoppier Card Interface"
                     width={600}
                     height={600}
@@ -141,17 +141,60 @@ export default function Home() {
               The Best Places to Work in 60+ Countries Use Hoppier. Does Yours?
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
-              {["Shopify", "Amazon", "Pixlee", "Philips", "Roots", "LinkedIn"].map((brand) => (
-                <div key={brand} className="h-12 flex items-center justify-center">
-                  <Image
-                    src={`/placeholder.svg?height=48&width=120&text=${brand}`}
-                    alt={brand}
-                    width={120}
-                    height={48}
-                    className="max-h-12 w-auto"
-                  />
-                </div>
-              ))}
+              <div className="h-12 flex items-center justify-center">
+                <Image
+                  src="https://cdn.prod.website-files.com/5cab75b41283e5fbfc0e18e2/6000653ea642501cde279ea6_vp-l-5.png"
+                  alt="Shopify"
+                  width={120}
+                  height={48}
+                  className="max-h-12 w-auto"
+                />
+              </div>
+              <div className="h-12 flex items-center justify-center">
+                <Image
+                  src="https://cdn.prod.website-files.com/5cab75b41283e5fbfc0e18e2/6000653ebaac894fcc62b17b_vp-l-4.png"
+                  alt="Amazon"
+                  width={120}
+                  height={48}
+                  className="max-h-12 w-auto"
+                />
+              </div>
+              <div className="h-12 flex items-center justify-center">
+                <Image
+                  src="https://cdn.prod.website-files.com/5cab75b41283e5fbfc0e18e2/6000653f0b6e21d3612a3839_vp-l-6.png"
+                  alt="Pixlee"
+                  width={120}
+                  height={48}
+                  className="max-h-12 w-auto"
+                />
+              </div>
+              <div className="h-12 flex items-center justify-center">
+                <Image
+                  src="https://cdn.prod.website-files.com/5cab75b41283e5fbfc0e18e2/6000653d9aa3d783ec678989_vp-l-3.png"
+                  alt="Phillips"
+                  width={120}
+                  height={48}
+                  className="max-h-12 w-auto"
+                />
+              </div>
+              <div className="h-12 flex items-center justify-center">
+                <Image
+                  src="https://cdn.prod.website-files.com/5cab75b41283e5fbfc0e18e2/6000653e1622e953621b5e35_vp-l-1.png"
+                  alt="Roots"
+                  width={120}
+                  height={48}
+                  className="max-h-12 w-auto"
+                />
+              </div>
+              <div className="h-12 flex items-center justify-center">
+                <Image
+                  src="https://cdn.prod.website-files.com/5cab75b41283e5fbfc0e18e2/606db49b6e5474d0fd291af9_linkedin.png"
+                  alt="LinkedIn"
+                  width={120}
+                  height={48}
+                  className="max-h-12 w-auto"
+                />
+              </div>
             </div>
           </div>
         </section>
