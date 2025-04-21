@@ -7,60 +7,24 @@ export default function Home() {
     <div className="flex min-h-screen flex-col">
       {/* Navigation */}
       <header className="container mx-auto flex items-center justify-between py-4 px-4 md:px-6">
-        <Link href="/" className="text-3xl font-medium text-slate-800">
+        <Link href="https://hoppier.com/" className="text-3xl font-medium text-slate-800">
           hoppier
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <Link href="#" className="text-sm font-medium text-slate-700 hover:text-slate-900">
+          <Link href="https://app.hoppier.com/" className="text-sm font-medium text-slate-700 hover:text-slate-900">
             Sign In
           </Link>
           <div className="relative group">
-            <Link href="#" className="text-sm font-medium text-slate-700 hover:text-slate-900 flex items-center gap-1">
-              Use Cases
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="h-4 w-4"
-              >
-                <path d="m6 9 6 6 6-6" />
-              </svg>
-            </Link>
           </div>
-          <div className="relative group">
-            <Link href="#" className="text-sm font-medium text-slate-700 hover:text-slate-900 flex items-center gap-1">
-              Learn
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="h-4 w-4"
-              >
-                <path d="m6 9 6 6 6-6" />
-              </svg>
-            </Link>
-          </div>
-          <Link href="#" className="text-sm font-medium text-slate-700 hover:text-slate-900">
+          <Link href="https://hoppier.com/catalog" className="text-sm font-medium text-slate-700 hover:text-slate-900">
             Catalog
           </Link>
-          <Link href="#" className="text-sm font-medium text-slate-700 hover:text-slate-900">
+          <Link href="https://hoppier.com/pricing" className="text-sm font-medium text-slate-700 hover:text-slate-900">
             Pricing
           </Link>
           <Link
-            href="#"
-            className="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded text-sm font-medium transition-colors"
+            href="https://hoppier.com/get-started"
+            className="bg-emerald-1000 hover:bg-emerald-1050 text-white px-4 py-2 rounded text-sm font-medium transition-colors"
           >
             SEE IT IN ACTION
           </Link>
@@ -110,8 +74,8 @@ export default function Home() {
                 </ul>
                 <div className="pt-4">
                   <Link
-                    href="#"
-                    className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded text-lg font-medium transition-colors inline-block w-full md:w-auto text-center"
+                    href="https://hoppier.com/get-started"
+                    className="bg-emerald-1000 hover:bg-emerald-1050 text-white px-6 py-3 rounded text-lg font-medium transition-colors inline-block w-full md:w-auto text-center"
                   >
                     Start sending cards
                   </Link>
@@ -292,22 +256,12 @@ export default function Home() {
               <h4 className="font-semibold mb-4">Product</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
-                    Features
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="https://hoppier.com/pricing" className="text-slate-300 hover:text-white">
                     Pricing
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
-                    Use Cases
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="https://hoppier.com/catalog" className="text-slate-300 hover:text-white">
                     Catalog
                   </Link>
                 </li>
@@ -317,17 +271,12 @@ export default function Home() {
               <h4 className="font-semibold mb-4">Resources</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="https://hoppier.com/blog" className="text-slate-300 hover:text-white">
                     Blog
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
-                    Help Center
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="https://hoppier.com/get-started" className="text-slate-300 hover:text-white">
                     Contact
                   </Link>
                 </li>
@@ -337,22 +286,12 @@ export default function Home() {
               <h4 className="font-semibold mb-4">Company</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
-                    Careers
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="https://hoppier.com/privacy-policy" className="text-slate-300 hover:text-white">
                     Privacy
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="https://hoppier.com/terms" className="text-slate-300 hover:text-white">
                     Terms
                   </Link>
                 </li>
@@ -364,16 +303,5 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
-      {/* Cookie Consent */}
-      <div className="fixed bottom-0 left-0 right-0 bg-slate-900 text-white p-4 flex justify-between items-center">
-        <p className="text-sm">
-          We use cookies to improve your experience on our site. By using our site you consent cookies.
-        </p>
-        <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded text-sm font-medium transition-colors">
-          Got it
-        </button>
-      </div>
-    </div>
   )
 }
